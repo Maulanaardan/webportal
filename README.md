@@ -14,53 +14,36 @@ Sebuah aplikasi dashboard blog sederhana berbasis Laravel. Project ini memungkin
 
 ## 🛠️ Tech Stack
 
-- PHP 8.x
-- Laravel 10.x
-- MySQL / SQLite (bisa disesuaikan)
+- PHP 8
+- Laravel 11
+- MySQL
 - Blade Templating
-- Tailwind CSS (via Laravel Breeze atau manual)
-
-## 📂 Struktur Project (Singkat)
-
-routes/web.php # Routing utama
-app/Http/Controllers/ # DashboardPostController, ProfileController
-resources/views/ # Halaman: home, post, dashboard, form, dll
-app/Models/ # Model: Post, Category, User
+- Tailwind CSS breeze
 
 bash
 Copy
 Edit
 
-## 📦 Instalasi
+## 🚀 Instalasi
 
-1. **Clone repository ini**:
+### 1. Clone repository ini:
 
 ```bash
 git clone https://github.com/username/laravel-blog-dashboard.git
 cd laravel-blog-dashboard
-Install dependensi:
 
-bash
-Copy
-Edit
+2. Install dependensi:
 composer install
 npm install && npm run dev
-Buat file .env & generate app key:
 
-bash
-Copy
-Edit
+3. Buat file .env & generate app key:
 cp .env.example .env
 php artisan key:generate
 Atur koneksi database di .env, lalu jalankan migrasi:
 
-bash
-Copy
-Edit
+4. Atur koneksi database di .env, lalu jalankan migrasi:
 php artisan migrate
 Jalankan server lokal:
 
-bash
-Copy
-Edit
+5. jalankan server local
 php artisan serve
